@@ -70,6 +70,7 @@
     <Content Include="check.aspx" />
     <Content Include="checkList.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="radio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +92,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="radio.aspx.cs">
+      <DependentUpon>radio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="radio.aspx.designer.cs">
+      <DependentUpon>radio.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
