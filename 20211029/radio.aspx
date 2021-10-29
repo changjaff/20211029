@@ -13,6 +13,7 @@
             請選擇性別 : <br />
         </div>
         <br />
+        <br />
         <asp:RadioButton ID="RadioButton1" runat="server" AutoPostBack="True" GroupName="sex" Checked="True" Text="男" OnCheckedChanged="RadioButton1_CheckedChanged" />      <br />
         <asp:RadioButton ID="RadioButton2" runat="server" AutoPostBack="True" GroupName="sex" Text="女" OnCheckedChanged="RadioButton2_CheckedChanged" />     <br />
         <br />
