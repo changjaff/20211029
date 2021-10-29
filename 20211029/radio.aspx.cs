@@ -11,7 +11,10 @@ namespace _20211029
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(RadioButton1.Checked == true)
+            {
+                Label1.Text = RadioButton1.Text;
+            }
         }
 
         protected void RadioButton1_CheckedChanged(object sender, EventArgs e)

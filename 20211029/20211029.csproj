@@ -69,8 +69,10 @@
   <ItemGroup>
     <Content Include="check.aspx" />
     <Content Include="checkList.aspx" />
+    <Content Include="DropDownList.aspx" />
     <Content Include="Global.asax" />
     <Content Include="radio.aspx" />
+    <Content Include="radioList.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +90,13 @@
     <Compile Include="checkList.aspx.designer.cs">
       <DependentUpon>checkList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DropDownList.aspx.cs">
+      <DependentUpon>DropDownList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DropDownList.aspx.designer.cs">
+      <DependentUpon>DropDownList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -98,6 +107,13 @@
     </Compile>
     <Compile Include="radio.aspx.designer.cs">
       <DependentUpon>radio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="radioList.aspx.cs">
+      <DependentUpon>radioList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="radioList.aspx.designer.cs">
+      <DependentUpon>radioList.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
